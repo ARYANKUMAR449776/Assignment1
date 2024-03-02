@@ -1,0 +1,36 @@
+<!-- * @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: ARYAN KUMAR. 
+& @studentid: 449776-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkToGrade</title>
+    <link rel="stylesheet" href="gradeConvertor.css">
+</head>
+<body>
+    <h2>Grade Convertor</h2>
+    <div>
+    <a id="navbarele" href="index.html">Personal</a>
+    <a id ="navbarele" href="staff.html">Staff</a>
+    <a id="navbarele" href="weather.html">Weather</a> 
+    </div>
+    <br>
+    <input id="marks" type="text" min="0" max="100" maxlength="3" >
+    <button onclick="conversion()">Convert</button>
+   
+    <p id="validation"></p>
+    <p id="convertedGrade"></p>
+
+    <footer id="footer">Copyright<p id="currentDate"></p>
+    </footer>
+    <script src="gradeConvertor.js"></script>
+</body>
+</html>

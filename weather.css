@@ -1,0 +1,70 @@
+/* <!-- * @name: Assignement1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+* @author: ARYAN KUMAR. 
+& @studentid: 449776--> */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Change background color */
+    color: #333;
+    text-align: center; /* Center align text */
+    margin: 0;
+    padding: 0;
+}
+
+#navbarele {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+div {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+p {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+#footer p {
+    margin-top: 10px;
+}
